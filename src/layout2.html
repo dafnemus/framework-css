@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Layout</title>
+  </head>
+  <body class="text-white text-center h-screen w-full grid grid-cols-12 gap-8">
+    <nav class="bg-orange-500 h-3/4 col-span-2 flex justify-center items-center w-full">
+      <a>NAV</a>
+    </nav>
+    <section class="bg-blue-700 p-4 col-span-9 flex justify-around gap-11 h-full">
+      <article class="bg-blue-500 h-full flex justify-center items-center w-full">
+        <h2>ARTICULO</h2>
+      </article>
+      <div class="w-full flex flex-col gap-5 max-h-full">
+        <aside class="bg-green-600 flex justify-center items-center w-full h-2/4">
+          <h2>ASIDE</h2>
+        </aside>
+        <aside class="bg-green-600 flex justify-center items-center h-2/4">
+          <h2>ASIDE</h2>
+        </aside>
+      </div>
+    </section>
+    <section class="bg-blue-700 p-4 col-start-3 col-span-9 flex flex-col items-end gap-5">
+      <aside class="bg-green-600 flex justify-center items-center w-2/4 h-2/4">
+        <h2>ASIDE</h2>
+      </aside>
+      <aside class="bg-green-600 flex justify-center items-center w-2/4 h-2/4">
+        <h2>ASIDE</h2>
+      </aside>
+    </section>
+  </body>
+</html>
